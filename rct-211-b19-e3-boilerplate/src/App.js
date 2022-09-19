@@ -1,5 +1,5 @@
 import "./App.css";
-import { Button } from "./Components/Button";
+import { Button, Buttons } from "./Components/Button";
 import { Input } from "./Components/Input";
 import { useCounter } from "./hooks/useCounter";
 
@@ -27,7 +27,7 @@ function App() {
       <br />
       {/* You can pass the required props as mentioned in the questions to
       check if the components are working properly */}
-      <Button />
+      <Buttons colorScheme="teal" size="sm" variant="ghost"/>
       <br />
       <Input />
     </div>
