@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/paratparshahi.github.io/evaluation-3-react/static/css/main.073c9b0a.css",
-    "main.js": "/paratparshahi.github.io/evaluation-3-react/static/js/main.f0a55ba2.js",
-    "static/js/787.7dc6f7ad.chunk.js": "/paratparshahi.github.io/evaluation-3-react/static/js/787.7dc6f7ad.chunk.js",
-    "index.html": "/paratparshahi.github.io/evaluation-3-react/index.html",
-    "main.073c9b0a.css.map": "/paratparshahi.github.io/evaluation-3-react/static/css/main.073c9b0a.css.map",
-    "main.f0a55ba2.js.map": "/paratparshahi.github.io/evaluation-3-react/static/js/main.f0a55ba2.js.map",
-    "787.7dc6f7ad.chunk.js.map": "/paratparshahi.github.io/evaluation-3-react/static/js/787.7dc6f7ad.chunk.js.map"
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.1813e10f.js",
+    "static/js/787.7dc6f7ad.chunk.js": "/static/js/787.7dc6f7ad.chunk.js",
+    "index.html": "/index.html",
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.1813e10f.js.map": "/static/js/main.1813e10f.js.map",
+    "787.7dc6f7ad.chunk.js.map": "/static/js/787.7dc6f7ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.f0a55ba2.js"
+    "static/js/main.1813e10f.js"
   ]
 }
