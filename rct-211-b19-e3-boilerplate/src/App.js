@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./App.css";
 import { Button, Buttons } from "./Components/Button";
 import { Input } from "./Components/Input";
@@ -14,6 +15,10 @@ function App() {
     minValue: 5,
     maxValue: 15,
   });
+  const [val,setval]=useState("")
+  function handleval(e){
+    setval(e.target.value)
+  }
   return (
     <div className="App">
       {/* DO NOT CHANGE the 5 lines below   */}
@@ -27,9 +32,10 @@ function App() {
       <br />
       {/* You can pass the required props as mentioned in the questions to
       check if the components are working properly */}
-      <Buttons colorScheme="teal" size="sm" variant="ghost"/>
+      <Buttons colorScheme="teal" size="xl" variant="ghost"/>
       <br />
-      <Input />
+
+      <Input type="Number" size="xl" variant='ghost' value={val} onChange={handleval}/>
     </div>
   );
 }

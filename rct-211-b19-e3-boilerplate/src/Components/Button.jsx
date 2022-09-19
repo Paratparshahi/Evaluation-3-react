@@ -10,20 +10,27 @@ export const Buttons = ({
   const [sizes,setsize]=useState(size);
   const [variants,setvariant]=useState(variant);
   const Sixes={
-    md:"200px",
+    md:"150px",
     sm:"100px",
-    lg:"300px",
-    xl:"400px"
+    lg:"180px",
+    xl:"220px"
   }
-  const Button=styled.button`
-    background:${colors};
-     width:${Sixes[sizes]}
-`
+  const heights={
+    md:"30px",
+    sm:'25px',
+    lg:"40px",
+    xl:"50px"
+  }
+ const styles={
+  width:Sixes[size],
+  background:colors,
+  height:heights[size],
+ } 
 
   return(
-    <Button>
+    <button style={styles}>
       Heloo
-    </Button>
+    </button>
   )
 };
 
