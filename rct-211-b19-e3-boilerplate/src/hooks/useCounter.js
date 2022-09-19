@@ -11,7 +11,7 @@ export const useCounter = ({initialValue,minValue,maxValue}) => {
   //console.log(initialValue,maxValue,minValue)
   var res;
   const incCount = (num) => {
-      if(countValue>=maxValue){
+      if(countValue+num>=maxValue){
         setcountValue(maxValue)
       }
       else if(num==undefined){
@@ -25,8 +25,11 @@ export const useCounter = ({initialValue,minValue,maxValue}) => {
   };
   
   const decCount = (num) => {
-    if(countValue<=minValue){
+    if(countValue-num<=minValue){
       setcountValue(minValue)
+    }
+    else if(num==undefined){
+      setcountValue(countValue)
     }
     else{
       setcountValue(countValue-num)
